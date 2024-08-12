@@ -1,4 +1,4 @@
-#!/usr/bin/python
+﻿#!/usr/bin/python
 
 # Copyright (C) Anasov <me@anasov.ly> - All Rights Reserved
 # Unauthorized copying of this file, via any medium is strictly prohibited
@@ -13,9 +13,8 @@ from rich.prompt import Prompt, IntPrompt
 from rich.text import Text
 from rich.style import Style
 
-__CHANNEL_USERNAME__ = "CPMAyano"
-__GROUP_USERNAME__   = "CPMAyan
-Chat"
+__CHANNEL_USERNAME__ = "CPMAyan"
+__GROUP_USERNAME__   = "CPMAyanChat"
 
 def signal_handler(sig, frame):
     print("\n Bye Bye...")
@@ -40,20 +39,20 @@ def gradient_text(text, colors):
 
 def banner(console):
     os.system('cls' if os.name == 'nt' else 'clear')
-    █████╗ ██╗   ██╗ █████╗ ███╗   ██╗
-██╔══██╗╚██╗ ██╔╝██╔══██╗████╗  ██║
-███████║ ╚████╔╝ ███████║██╔██╗ ██║
-██╔══██║  ╚██╔╝  ██╔══██║██║╚██╗██║
-██║  ██║   ██║   ██║  ██║██║ ╚████║
-╚═╝  ╚═╝   ╚═╝   ╚
-colors = [
+    brand_name =  " ██████╗██████╗ ███╗   ███╗███╗   ██╗██╗   ██╗██╗  ██╗███████╗██████╗\n"
+    brand_name += "██╔════╝██╔══██╗████╗ ████║████╗  ██║██║   ██║██║ ██╔╝██╔════╝██╔══██╗\n"
+    brand_name += "██║     ██████╔╝██╔████╔██║██╔██╗ ██║██║   ██║█████╔╝ █████╗  ██████╔╝\n"
+    brand_name += "██║     ██╔═══╝ ██║╚██╔╝██║██║╚██╗██║██║   ██║██╔═██╗ ██╔══╝  ██╔══██╗\n"
+    brand_name += "╚██████╗██║     ██║ ╚═╝ ██║██║ ╚████║╚██████╔╝██║  ██╗███████╗██║  ██║\n"
+    brand_name += " ╚═════╝╚═╝     ╚═╝     ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝\n"
+    colors = [
         "rgb(255,0,0)", "rgb(255,69,0)", "rgb(255,140,0)", "rgb(255,215,0)", "rgb(173,255,47)", 
         "rgb(0,255,0)", "rgb(0,255,255)", "rgb(0,191,255)", "rgb(0,0,255)", "rgb(139,0,255)",
         "rgb(255,0,255)"
     ]
     colorful_text = gradient_text(brand_name, colors)
     console.print(colorful_text)
-    console.print("[bold green]♕ CPMAyano[/bold green]: Car Parking Multiplayer Hacking Tool.")
+    console.print("[bold green]♕ [/bold green]: Car Parking Multiplayer Hacking Tool.")
     console.print(f"[bold green]♕ Telegram[/bold green]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue] or [bold blue]@{__GROUP_USERNAME__}[/bold blue].")
     console.print("[bold red]==================================================[/bold red]")
     console.print("[bold yellow]! Note[/bold yellow]: Logout from CPM before using this tool !.", end="\n\n")
