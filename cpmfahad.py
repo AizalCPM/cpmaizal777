@@ -6,9 +6,9 @@ from time import sleep
 # Proprietary and confidential
 # Written by Lynx <DPR_LynX_Lovers>, 09, juli, 2024.
 
-BASE_URL: str = "https://cybercpm.store/api"
+BASE_URL: str = "https://ayyancpm_store/api"
 
-class CyberCPM:
+class AyyanCPM:
 
     def __init__(self, access_key) -> None:
         self.auth_token = None
