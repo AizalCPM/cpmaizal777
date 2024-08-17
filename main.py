@@ -1,4 +1,4 @@
-H #!/usr/bin/python
+ #!/usr/bin/python
 
 # Copyright (C) Anasov <me@anasov.ly> - All Rights Reserved
 # Unauthorized copying of this file, via any medium is strictly prohibited
