@@ -19,6 +19,9 @@ git clone https://github.com/cpmanas/cpmanas.git
 cd cpmanas
 ```
 ```
+git pull
+```
+```
 pip install -r requirements.txt
 ```
 ```
@@ -31,6 +34,7 @@ python main.py
     - `pkg update`
     - `pkg install python`
     - `pkg install python-pip`
+    - `pkg install git
 
 - ### Linux
     - `sudo apt install python`
