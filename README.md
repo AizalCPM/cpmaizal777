@@ -13,10 +13,10 @@
 ## Installation
 [don't know how to install python ?](#install-python)
 ```
-git clone https://github.com/CPMFahad/CPMFahad.git
+git clone https://github.com/cpmanas/cpmanas.git 
 ```
 ```
-cd CPMFahad
+cd cpmanas
 ```
 ```
 pip install -r requirements.txt
