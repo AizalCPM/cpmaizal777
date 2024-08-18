@@ -34,7 +34,7 @@ python main.py
     - `pkg update`
     - `pkg install python`
     - `pkg install python-pip`
-    - `pkg install git
+    - `pkg install git`
 
 - ### Linux
     - `sudo apt install python`
