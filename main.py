@@ -16,8 +16,8 @@ from rich.text import Text
 from rich.style import Style
 from cpmnuker import CPMNuker
 
-__CHANNEL_USERNAME__ = "CPMAnas"
-__GROUP_USERNAME__   = "CPMAnasChat"
+__CHANNEL_USERNAME__ = "CPMModder"
+__GROUP_USERNAME__   = "CPMModderChat"
 
 def signal_handler(sig, frame):
     print("\n Bye Bye...")
@@ -50,7 +50,7 @@ def banner(console):
     ]
     colorful_text = gradient_text(brand_name, colors)
     console.print(colorful_text, end=None)
-    console.print("[bold green]♕ CPMAnas[/bold green]: Car Parking Multiplayer Hacking Tool.")
+    console.print("[bold green]♕ 🇸🇦 CPMModder 🇸🇦[/bold green]: Car Parking Multiplayer Hacking Tool.")
     console.print(f"[bold green]♕ Telegram[/bold green]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue] or [bold blue]@{__GROUP_USERNAME__}[/bold blue].")
     console.print("[bold red]==================================================[/bold red]")
     console.print("[bold yellow]! Note[/bold yellow]: Logout from CPM before using this tool !.", end="\n\n")
