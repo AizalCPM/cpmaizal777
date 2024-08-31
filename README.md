@@ -2,7 +2,6 @@
 <h3>CPMAizal is a tool made to modify Car Parking Multiplayer accounts with no root or vertual app.</h3>
 <h4>you just need an Access Key, wich you can get from <a href="https://t.me/CPMNukerBot">@CPMNukerBot</a> for free with 1K Credits Balance.</h4>
 
-![](./assets/tool.png)
 
 #### Tested on:
 - IPhone (**ish**).
@@ -13,10 +12,10 @@
 ## Installation
 [don't know how to install python ?](#install-python)
 ```
-git clone https://github.com/cpmmohammad/CPMMohammad.git 
+git clone https://github.com/aizalcpm/cpmaizal.git
 ```
 ```
-cd cpmanas
+cd cpmaizal
 ```
 ```
 git pull
