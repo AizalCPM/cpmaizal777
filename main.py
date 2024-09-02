@@ -12,7 +12,7 @@ from rich.console import Console
 from rich.prompt import Prompt, IntPrompt
 from rich.text import Text
 from rich.style import Style
-from andocpm import andoCPM
+from cpmnuker import CPMNuker
 
 __CHANNEL_USERNAME__ = "AndoCPM"
 __GROUP_USERNAME__   = "AndoCPM"
