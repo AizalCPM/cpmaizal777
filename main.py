@@ -9,7 +9,7 @@ from rich.console import Console
 from rich.prompt import Prompt, IntPrompt
 from rich.text import Text
 from rich.style import Style
-from carparktool import CarParkTool
+from cpmnuker import CPMNuker
 
 __CHANNEL_USERNAME__ = "Toolscpm"
 __GROUP_USERNAME__   = "ToolscpmChat"
