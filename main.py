@@ -37,7 +37,7 @@ def gradient_text(text, colors):
 
 def banner(console):
     os.system('cls' if os.name == 'nt' else 'clear')
-    brand_name = figlet_format('CarParkingTool', font='drpepper')
+    brand_name = figlet_format('CPMAIZAL', font='drpepper')
     colors = [
         "rgb(255,0,0)", "rgb(255,69,0)", "rgb(255,140,0)", "rgb(255,215,0)", "rgb(173,255,47)", 
         "rgb(0,255,0)", "rgb(0,255,255)", "rgb(0,191,255)", "rgb(0,0,255)", "rgb(139,0,255)",
@@ -146,7 +146,7 @@ if __name__ == "__main__":
             load_client_details()
             choices = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22"]
             console.print("[bold][cyan](01):[/cyan] [green]Increase Money ~ 500[/green]")
-            console.print("[bold][cyan](02):[/cyan] [green]Increase Coins ~ 1500[/green]")
+            console.print("[bold][cyan](02):[/cyan] [green]Increase Coins ~ 500[/green]")
             console.print("[bold][cyan](03):[/cyan] [green]King Rank ~ 400[/green]")
             console.print("[bold][cyan](04):[/cyan] [green]Change ID ~ 600[/green]")
             console.print("[bold][cyan](05):[/cyan] [green]Change Name ~ 100[/green]")
@@ -155,8 +155,8 @@ if __name__ == "__main__":
             console.print("[bold][cyan](08):[/cyan] [green]Account Delete ~ FREE[/green]")
             console.print("[bold][cyan](09):[/cyan] [green]Account Register ~ FREE[/green]")
             console.print("[bold][cyan](10):[/cyan] [green]Delete Friends ~ 300[/green]")
-            console.print("[bold][cyan](11):[/cyan] [green]Unlock Paid Cars ~ 1700[/green]")
-            console.print("[bold][cyan](12):[/cyan] [green]Unlock all Cars ~ 1400[/green]")
+            console.print("[bold][cyan](11):[/cyan] [green]Unlock Paid Cars ~ 600[/green]")
+            console.print("[bold][cyan](12):[/cyan] [green]Unlock all Cars ~ 800[/green]")
             console.print("[bold][cyan](13):[/cyan] [green]Unlock all Cars Siren ~ 2000[/green]")
             console.print("[bold][cyan](14):[/cyan] [green]Unlock w16 Engine ~ 800[/green]")
             console.print("[bold][cyan](15):[/cyan] [green]Unlock All Horns ~ 700[/green]")
