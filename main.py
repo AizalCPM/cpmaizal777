@@ -43,7 +43,7 @@ def banner(console):
     ]
     colorful_text = gradient_text(brand_name, colors)
     console.print(colorful_text, end=None)
-    console.print("[bold green]♕ Car Parking Muultiplayer Tool[/bold green]: Get In Touch With Me To Buy An Unlimitied Balance.")
+    console.print("[bold green]♕ Car Parking Multiplayer Tool Owner Of This Tool Is @ItzAizal[/bold green]: Get In Touch With Me To Buy An Unlimitied Balance.")
     console.print(f"[bold green]♕ Telegram[/bold green]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue] or [bold blue]@{__GROUP_USERNAME__}[/bold blue].")
     console.print("[bold red]==================================================[/bold red]")
     console.print("[bold yellow]! Note[/bold yellow]: Logout Your Id From CPM Then Use This Tool Thank You  !.", end="\n\n")
