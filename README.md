@@ -12,7 +12,7 @@
 ## Installation
 [don't know how to install python ?](#install-python)
 ```
-git clone https://github.com/aizalcpm/cpmaizal.git
+git clone https://github.com/Aizal-Pak/cpmaizal.git
 ```
 ```
 cd cpmaizal
