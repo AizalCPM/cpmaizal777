@@ -470,7 +470,7 @@ if __name__ == "__main__":
                 console.print("[bold cyan][!] Insert how much races you win.[/bold cyan]")
                 amount = IntPrompt.ask("[bold][?] Amount[/bold]")
                 console.print("[bold cyan][%] Changing your data[/bold cyan]: ", end=None)
-                if amount > 0 and amount <= 10000000:
+                if amount > 0 and amount <= 999999999999999:
                     if cpm.set_player_wins(amount):
                         console.print("[bold green]SUCCESSFUL.[/bold green]")
                         console.print("==================================")
