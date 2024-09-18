@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 import random
 import requests
 from time import sleep
