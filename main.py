@@ -22,7 +22,6 @@ def signal_handler(sig, frame):
 def gradient_text(text, colors):
     lines = text.splitlines()
     height = len(lines)
-len(line)None)(lines())
     colorful_text = Text()
     for y, line in enumerate(lines):
         for x, char in enumerate(line):
