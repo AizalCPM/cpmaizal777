@@ -118,9 +118,7 @@ def load_client_details():
 
 
 def interpolate_color(start_color, end_color, fraction):
-    start_rgb = (lambda .0 = None: for i in .0:
 int(start_color[i:i + 2], 16)None)((1, 3, 5)())
-    end_rgb = (lambda .0 = None: for i in .0:
 int(end_color[i:i + 2], 16)None)((1, 3, 5)())
     interpolated_rgb = (lambda .0 = None: for start, end in .0:
 int(start + fraction * (end - start))None)(zip(start_rgb, end_rgb)())
