@@ -116,15 +116,6 @@ def load_client_details():
     print(Colorate.Horizontal(Colors.rainbow, f'''Country    : {data.get('country')} {data.get('zip')}.'''))
     print(Colorate.Horizontal(Colors.rainbow, '===============[ ðððð ]==============='))
 
-
-def interpolate_color(start_color, end_color, fraction):
-int(start_color[i:i + 2], 16)None)((1, 3, 5)())
-int(end_color[i:i + 2], 16)None)((1, 3, 5)())
-    interpolated_rgb = (lambda .0 = None: for start, end in .0:
-int(start + fraction * (end - start))None)(zip(start_rgb, end_rgb)())
-    return interpolated_rgb
-
-
 def rainbow_gradient_string(customer_name):
     modified_string = ''
     num_chars = len(customer_name)
