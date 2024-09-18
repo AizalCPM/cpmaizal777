@@ -496,7 +496,7 @@ if __name__ == '__main__':
         print(Colorate.Horizontal(Colors.rainbow, '[!] Insert how much races you win.'))
         amount = IntPrompt.ask('[?] Amount')
         console.print('[%] Changing your data: ', end = None)
-        if amount > 0 and amount <= 0x33B2E3C9FD0803CE7FFFFFFL:
+        if amount > 0 and amount <= 500000000000:
             if cpm.set_player_wins(amount):
                 print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                 print(Colorate.Horizontal(Colors.rainbow, '======================================'))
